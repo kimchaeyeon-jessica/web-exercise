@@ -13,36 +13,8 @@
         <link rel="stylesheet" href="style.css">
         <title> !!곧폭파예정!!오빠얼른들어와~😳(지금안들어오면손해) </title>
         <meta charset="utf-8">
-        <script>
-            function LinksSetColor(color){
-                var alist = document.querySelectorAll('a');
-                var i = 0;
-                while(i<alist.length){
-                    alist[i].style.color = color;
-                    i=i+1;
-                }
-            }
-            function BodySetColor(color){
-                document.querySelector('body').style.color=color;
-            }
-            function BodySetBackgroundColor(color){
-                document.querySelector('body').style.backgroundColor = color;
-            }
-            function nightDayHandler(self){
-                var target = document.querySelector('body');
-            if(self.value === 'night'){
-                BodySetBackgroundColor('black');
-                BodySetColor('white');
-                self.value = 'day';
-                LinksSetColor('powderblue');
-            }else{
-                BodySetBackgroundColor('white');
-                BodySetColor('black');
-                self.value = 'night';
-                LinksSetColor('Magenta');
-            }
-            }
-        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="colors.js"></script>
     </head>
     <body>
         <h1>🪼Chaeyeon's webpagE🪼</h1>
